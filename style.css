@@ -1,0 +1,31 @@
+h1 {
+  font-size: 50px;
+}
+
+h2 {
+  font-size: 35px;
+}
+
+#recipe {
+  font-size: 20px;
+  white-space: pre-wrap;
+}
+
+body {
+  background-color: rgb(255, 185, 79);
+  font-family: "Fjalla One", sans-serif;
+  text-align: center;
+}
+
+ul {
+  list-style-type: none;
+  padding-left: 0;
+}
+
+ol {
+    text-align: left; 
+}    
+
+.description {
+    font-style: italic;
+}
