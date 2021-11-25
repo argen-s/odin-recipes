@@ -1,18 +1,53 @@
 h1 {
   font-size: 50px;
+  color: white;
+  margin-top: 25px;
+}
+
+.cast-iron {
+  color: gray;
+  font-family:"Sedgwick Ave Display", cursive;
+  font-size: 80px;
+  -webkit-text-stroke:0.5px white;
+  -webkit-text-fill-color:transparent;
+}
+
+.cast-iron:hover {
+  -webkit-text-stroke:0.5px white;
+  -webkit-text-fill-color:rgb(179,57,81);
 }
 
 h2 {
   font-size: 35px;
 }
 
-#recipe {
+.list-recipe {
   font-size: 20px;
-  white-space: pre-wrap;
+
+  /* white-space: pre-wrap; */
+}
+
+.list-recipe a{
+  background-color: rgb(179,57,81);
+  color: white;
+  text-decoration: none;
+  padding: 1em 2em;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  width: 400px;
+  display: inline-block;
+  border-radius: 5px;
+}
+
+.list-recipe a:hover {
+  background-color: rgb(75, 23, 33);
+  font-size: 25px;
+  width: 450px;
 }
 
 body {
-  background-color: rgb(255, 185, 79);
+  background-color: rgb(2, 2, 31);
+  color: white;
   font-family: "Fjalla One", sans-serif;
   text-align: center;
 }
@@ -23,9 +58,51 @@ ul {
 }
 
 ol {
-    text-align: left; 
+  text-align: left; 
+  margin-left: 100px;
+  margin-right: 100px;
 }    
 
+ol li {
+  margin-bottom: 20px;
+}
+
 .description {
-    font-style: italic;
+  font-style: italic;
+}
+
+.main-image {
+  display: flex;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 30px;
+  margin-top: -15px;
+  width: 350px;
+  height: auto;
+  border-radius: 50%;
+}
+
+img {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 500px;
+  height: auto;
+}
+
+button {
+  margin-top: 20px;
+  margin-bottom: 20px;
+  width: 120px;
+}
+
+button a {
+  font-size: 20px;
+  text-decoration: none;
+  color:rgb(75, 23, 33);
+}
+
+button a:hover {
+  font-weight: bold;
+  color: rgb(23, 52, 107);
 }
